@@ -5,8 +5,6 @@ Version:	2.0
 Release:	1.beta3
 License:	GPL
 Group:		Development/Languages
-Group(de):	Entwicklung/Sprachen
-Group(pl):	Programowanie/Jêzyki
 Source0:	http://www.pjrc.com/tech/8051/%{name}_beta3.tar.gz
 URL:		http://www.pjrc.com/tech/8051/#as31_assembler
 BuildRequires:	bison
