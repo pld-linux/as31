@@ -1,6 +1,6 @@
 #
 # Conditional build:
-%bcond_with	gtk	# with gtk+ interface (you probably don't want this)
+%bcond_with	gtk	# with GTK+ interface (you probably don't want this)
 #
 Summary:	An Intel 8031/8051 assembler
 Summary(pl):	Asembler dla procesorów Intel 8031/8051
