@@ -1,5 +1,5 @@
-Summary:	An Intel 8031/8051 assembler.
-Summary(pl):	Asembler dla procesorów Intel 8031/8051.
+Summary:	An Intel 8031/8051 assembler
+Summary(pl):	Asembler dla procesorów Intel 8031/8051
 Name:		as31
 Version:	2.0
 Release:	1.beta3
@@ -22,7 +22,7 @@ Asembler dla procesorów Intel 8031/8051.
 %setup -q -n %{name}
 
 %build
-%{__make} CFLAGS="%{rpmcflags}" LDFLAGS="%{?debug:-s}"
+%{__make} CFLAGS="%{rpmcflags}" LDFLAGS="%{rpmldflags}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
