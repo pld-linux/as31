@@ -22,7 +22,7 @@ Asembler dla procesorów Intel 8031/8051.
 %setup -q -n %{name}
 
 %build
-%{__make} CFLAGS="%{?debug:-O0 -g}%{!?debug:$RPM_OPT_FLAGS}" LDFLAGS="%{?debug:-s}"
+%{__make} CFLAGS="%{rpmcflags}" LDFLAGS="%{?debug:-s}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
