@@ -6,6 +6,7 @@ Release:	1.beta3
 License:	GPL
 Group:		Development/Languages
 Source0:	http://www.pjrc.com/tech/8051/%{name}_beta3.tar.gz
+# Source0-md5:	24e2d74747e0b3672cdb581138e50d8f
 URL:		http://www.pjrc.com/tech/8051/#as31_assembler
 BuildRequires:	bison
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
