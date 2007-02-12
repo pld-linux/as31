@@ -3,7 +3,7 @@
 %bcond_with	gtk	# with GTK+ interface (you probably don't want this)
 #
 Summary:	An Intel 8031/8051 assembler
-Summary(pl.UTF-8):   Asembler dla procesorów Intel 8031/8051
+Summary(pl.UTF-8):	Asembler dla procesorów Intel 8031/8051
 Name:		as31
 Version:	2.0
 Release:	1.beta3
